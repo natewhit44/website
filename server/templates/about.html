@@ -1,5 +1,11 @@
 <!-- Inherit parent code -->
 {% extends "layout.html" %}
 {% block content %}
-    <h1>About Page</h1>
+    <h1>About Me</h1>
+    <img class="content-section col-md-12" src="{{ url_for('static', filename='page_pics/fractal_1.jpg') }}">
+    <div class="content-section">
+        <p>Integer semper, orci non dictum porttitor, quam purus laoreet lectus, a scelerisque mi nibh et arcu. Aliquam ligula massa, faucibus non elementum eget, eleifend eu purus. Aliquam in interdum odio, at commodo ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus venenatis urna eu leo aliquet, sit amet pellentesque risus mollis. Ut nunc magna, dictum eget porta at, tempus sed felis. Cras pretium velit id elit venenatis, nec consectetur magna volutpat. Integer efficitur blandit nulla viverra maximus. Morbi aliquam tincidunt lorem ac mattis. Praesent commodo ultrices velit sit amet blandit. Nam eget porta magna, a tristique metus. Proin risus odio, euismod eu ultricies sed, mattis sit amet erat. Nullam commodo fermentum urna, in tristique libero. Cras accumsan, urna id bibendum aliquet, est lectus pellentesque nisi, quis bibendum orci ipsum ut dolor. Aliquam molestie lacinia rhoncus.</p>
+        <br/>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi in pulvinar eros, eget convallis justo. Etiam placerat eu tellus nec lobortis. Morbi blandit metus ac eleifend vulputate. Donec ac euismod magna. Sed convallis dictum condimentum. Aliquam erat volutpat. Donec dignissim maximus mi. Etiam nec justo vitae ligula vehicula egestas sit amet ac mi. Aenean porttitor metus augue, quis euismod quam hendrerit sit amet. Suspendisse egestas diam at metus facilisis lacinia. In tincidunt leo non augue luctus consequat.</p>
+    </div>
 {% endblock content%}
